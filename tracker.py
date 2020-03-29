@@ -4,7 +4,6 @@ import requests
 from bs4 import BeautifulSoup
 import copy
 import smtplib
-from twilio.rest import Client
 emailList = ['xyz@abc.com']
 
 def send_Mail(dct, death = False):
